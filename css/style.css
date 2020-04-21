@@ -11,8 +11,23 @@
 /*fine reset*/
 
 /*impostazioni generali*/
+
 ul{
   list-style-type: none;
+}
+a{
+  text-decoration: none;
+}
+p{
+  line-height: 25px;
+}
+h2{
+  font-size: 20px;
+  font-weight: 800;
+}
+h3{
+  font-size: 17px;
+  font-weight: 600;
 }
 .container{
   width: 70%;
@@ -26,14 +41,19 @@ ul{
 .button{
   color: white;
   background-color: #fe775a;
-  margin: 0px 12px;
+  margin: 0 12px;
   border-radius: 5px;
 }
+.subtitle{
+  font-size: 9px;
+}
 /*fine impostazioni generali*/
+
 
 /*HEADER*/
 
 /*generale*/
+
 header nav>* {
   height: 55px;
 }
@@ -53,11 +73,15 @@ header nav .col li{
 header nav .col.right ul{
   text-align: right;
 }
+
+
 /**SET-BAR**/
+
 header nav .set{
   background-color: #f4f9fd;
   border-bottom: 1px solid #505f6f;
 }
+
 /*colonne*/
 
 header .set .col.left li:first-child{
@@ -73,10 +97,18 @@ header .set .col.right .login{
   border: 1px solid #fe775a;
   padding: 0 12px;
 }
+header .set .col.right .glass.icon{
+  color:#84d1df;
+}
+
+
 /**MENU-BAR**/
+
 head nav .menu{
   background-color: #ffffff;
 }
+
+/*colonne*/
 header nav .menu .col.logo{
   width: 15%;
 }
@@ -92,9 +124,159 @@ header nav .menu .col.right ul:last-child{
 header nav .menu .col.right li{
   padding: 0 10px;
 }
+/**FINE MENU-BAR**/
 
+/**TEASER**/
+h1{
+  font-size: 35px;
+  font-weight: 600;
+}
+header .teaser .container div>*{
+  padding: 15px;
+  padding-left: 0;
+}
+header .teaser .button.cta{
+  margin:15px 0;
+  padding: 10px 7px;
+}
+header .teaser div.cta{
+  float: left;
+  padding-top: 80px;
+}
+header .teaser {
+  background-image: url(../img/jumbotron.png);
+  height: 600px;
+  left: 0;
+  top: 0;
+  border-bottom: 2px solid #505f6f;
+}
+/**FINE TEASER**/
 
-/**FINE SET-BAR**/
-
-
+.divider{
+  height: 55px;
+  background-color: #afebe4;
+  border-bottom: 2px solid #505f6f;
+}
 /*FINE HEADER*/
+
+/*MAIN*/
+
+/*generali*/
+
+.services{
+  background-color: #f4f9fd;
+}
+main .bulletpoint img{
+  height: 100px;
+  margin: auto;
+  padding: 10px;
+}
+main .services .bulletpoint i{
+  color: #fe775a;
+}
+main .bulletpoint{
+  background-color: white;
+  border-radius: 5px;
+}
+main .bulletpoint .feature{
+  text-transform: uppercase;
+  font-weight: 600;
+}
+main .services .bulletpoint .button{
+  padding: 12px 18px;
+}
+/**LINE SERVICE**/
+
+main .line.service{
+  text-align: center;
+  padding: 40px;
+}
+main .line.service img{
+height: 150px;
+margin: auto;
+}
+main .line.service p{
+  padding:30px;
+}
+
+/**LINEA BULLETPOINT**/
+
+main .line.bulletpoint{
+  height: 240px;
+  padding-bottom: 40px;
+}
+
+/***colonne***/
+
+main .line.bulletpoint .col{
+  float: left;
+}
+main .line.bulletpoint .col{
+  padding:40px;
+}
+
+/****colonna sinistra****/
+
+main .services .line.bulletpoint .col.left{
+  width:30%;
+  text-align: center;
+}
+main .services .line.bulletpoint .col.left .image{
+  padding-bottom: 20px;
+}
+
+/****colonna destra****/
+
+main .line.bulletpoint .col.right{
+  width:70%;
+  padding-bottom: 20px;
+}
+main .line.bulletpoint .col.right li{
+  display: inline-block;
+}
+main .line.bulletpoint .col.right li:nth-child(2){
+  padding: 20px;
+  width: 370px;
+}
+main .line.bulletpoint .col.right li,
+main .line.bulletpoint .col.right li,i{
+  padding-right: 10px;
+}
+main .line.bulletpoint .col.right .feature{
+  padding: 20px 0;
+}
+
+
+/**INIZIO COLONNE BULLETPOINTS**/
+main .column.bulletpoint{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+main .column.bulletpoint .col{
+  width: 30%;
+  float: left;
+  padding: 5px;
+}
+main .column.bulletpoint .col.center{
+  margin: 0 5%;
+}
+main .column.bulletpoint .col{
+  text-align: center;
+}
+main .column.bulletpoint .col,p,ul{
+  font-size: 13px;
+}
+main .column.bulletpoint .col ul{
+  text-align: left;
+}
+main .column.bulletpoint .col hr{
+  width: 80%;
+  margin: auto;
+}
+main .column.bulletpoint .col>*:not(:first-child){
+  margin:30px;
+}
+main .column.bulletpoint .col a{
+  margin-bottom: 30px;
+}
+/*FINE MAIN*/

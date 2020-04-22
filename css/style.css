@@ -127,6 +127,10 @@ header nav .menu .col.right li{
 /**FINE MENU-BAR**/
 
 /**TEASER**/
+header .teaser .cta{
+  height: 200px;
+  width: 600px;
+}
 h1{
   font-size: 35px;
   font-weight: 600;
@@ -174,7 +178,8 @@ main .bulletpoint img{
 main .services .bulletpoint i{
   color: #fe775a;
 }
-main .bulletpoint{
+main .col.bulletpoint,
+main .line.bulletpoint{
   background-color: white;
   border-radius: 5px;
 }
@@ -188,12 +193,15 @@ main .services .bulletpoint .button{
 /**LINE SERVICE**/
 
 main .line.service{
+  height: 400px;
+  width: 100%;
+  margin: auto;
   text-align: center;
   padding: 40px;
 }
 main .line.service img{
-height: 150px;
-margin: auto;
+  height: 150px;
+  margin: auto;
 }
 main .line.service p{
   padding:30px;
@@ -203,6 +211,7 @@ main .line.service p{
 
 main .line.bulletpoint{
   height: 240px;
+  width: 100%;
   padding-bottom: 40px;
 }
 
@@ -248,14 +257,18 @@ main .line.bulletpoint .col.right .feature{
 
 
 /**INIZIO COLONNE BULLETPOINTS**/
-main .column.bulletpoint{
-  margin-top: 40px;
-  margin-bottom: 40px;
-}
+
 main .column.bulletpoint .col{
   width: 30%;
+  height: 570px;
   float: left;
   padding: 5px;
+}
+main .column.bulletpoint{
+  width: 100%;
+  height: 580px;
+  margin-top: 40px;
+  margin-bottom: 80px;
 }
 main .column.bulletpoint .col.center{
   margin: 0 5%;
@@ -278,5 +291,51 @@ main .column.bulletpoint .col>*:not(:first-child){
 }
 main .column.bulletpoint .col a{
   margin-bottom: 30px;
+}
+
+/*PROOF*/
+main .proof{
+  background-color: #00a9b8;
+}
+main .proof .promise{
+  height: 200px;
+  width: 100%;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+main .proof .promise h2{
+  margin-bottom: 20px;
+}
+main .proof .promise h2,
+main .proof .promise p{
+  color: white;
+}
+main .proof .table .line.top .block{
+  width: 25%;
+  height: 130px;
+  float: left;
+  text-align: center;
+}
+main .proof .table .line.top .block >*{
+  color: white;
+}
+main .proof .table .line.top .block{
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+}
+main .proof .table .line.top .block img{
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+main .proof .table .line.top .block:last-child{
+  border-right: none;
+}
+main .proof .table .line.top .block .number{
+  font-weight:800;
+  font-size: 20px;
+}
+main .proof .table .line.top .block .type{
+  font-size: 6px;
 }
 /*FINE MAIN*/

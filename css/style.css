@@ -162,7 +162,9 @@ header .teaser {
 /*FINE HEADER*/
 
 /*MAIN*/
-
+main{
+  margin-bottom: 70px;
+}
 /*generali*/
 
 .services{
@@ -210,6 +212,7 @@ main .line.service p{
 main .line.bulletpoint{
   height: 240px;
   width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding-bottom: 40px;
 }
 
@@ -259,6 +262,7 @@ main .line.bulletpoint .col.right .feature{
 main .column.bulletpoint .col{
   width: 30%;
   height: 570px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   float: left;
   padding: 5px;
 }
@@ -425,3 +429,74 @@ main .testimonial .line.bottom .col.right img{
 }
 /*FINE TESTIMONIAL*/
 /*FINE MAIN*/
+ /*FOOTER*/
+footer{
+  background-color: #33475b;
+  color:#cbd6e2;
+  font-weight: 800;
+  font-size: 17px;
+  height: 550px;
+  width: 100%;
+}
+footer .line{
+  height: 300px;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  padding-top: 50px;
+}
+footer .line .col p:first-of-type{
+  color: white;
+  font-weight: 800;
+}
+footer .line .col{
+  height: 170px;
+  width: 200px;
+  float: left;
+}
+footer .line .col{
+margin-right: 30px;
+}
+footer .line .first.col{
+  margin-left: 0;
+}
+footer .line .col p{
+  padding: 5px 0;
+}
+footer .line .fourth.col .button{
+  font-size: 13px;
+  background-color: white;
+  color:#33475b;
+  padding: 7px 7px;
+}
+footer .line .fourth.col ul li{
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: 15px;
+}
+footer ul.languages li{
+  display: inline-block;
+  text-align: center;
+  padding: 15px;
+}
+footer ul.languages{
+  margin: 0 200px;
+}
+footer hr{
+  padding: 20px
+  color:#cbd6e2;
+}
+footer .copyright .col{
+  float: left;
+  width: 50%;
+  height: 100px;
+  padding:20px;
+}
+footer .copyright .col.right{
+  text-align: right;
+}
+footer .copyright .col.right p{
+  display: inline-block;
+  font-weight: 600;
+}
+ /*FINE FOOTER*/

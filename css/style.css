@@ -294,9 +294,25 @@ main .column.bulletpoint .col a{
 }
 
 /*PROOF*/
+/*generale*/
 main .proof{
   background-color: #00a9b8;
 }
+main .proof .promise h2,
+main .proof .promise p{
+  color: white;
+}
+main .proof .table .line .block{
+  width: 25%;
+  height: 130px;
+  float: left;
+  text-align: center;
+}
+main .proof .table .line .block >*{
+  color: white;
+}
+
+/*promise*/
 main .proof .promise{
   height: 200px;
   width: 100%;
@@ -307,35 +323,79 @@ main .proof .promise{
 main .proof .promise h2{
   margin-bottom: 20px;
 }
-main .proof .promise h2,
-main .proof .promise p{
-  color: white;
+/*table*/
+main .proof .table{
+  height: 260px;
+  width: 100%;
+  margin-bottom: 70px;
 }
-main .proof .table .line.top .block{
-  width: 25%;
-  height: 130px;
-  float: left;
-  text-align: center;
+/*blocchi*/
+main .proof .table .line .block .number{
+  font-weight:800;
+  font-size: 20px;
 }
-main .proof .table .line.top .block >*{
-  color: white;
+main .proof .table .line .block .types{
+  font-size: 8px;
 }
+/*linea superiore*/
 main .proof .table .line.top .block{
   border-right: 1px solid white;
   border-bottom: 1px solid white;
+}
+main .proof .table .line.top .block:last-child{
+  border-right: none;
 }
 main .proof .table .line.top .block img{
   margin-top: 20px;
   margin-bottom: 10px;
 }
-main .proof .table .line.top .block:last-child{
+/*linea inferiore*/
+main .proof .table .line.bottom .block{
+  border-right: 1px solid white;
+}
+main .proof .table .line.bottom .block:last-child{
   border-right: none;
 }
-main .proof .table .line.top .block .number{
-  font-weight:800;
-  font-size: 20px;
+main .proof .table .line.bottom .block img{
+  margin-top: 20px;
 }
-main .proof .table .line.top .block .type{
-  font-size: 6px;
+/*FINE PROOF*/
+
+/*TESTIMONIAL*/
+main .testimonial{
+  background-color: #ffffff;
 }
+main .testimonial .line.top .data{
+  height: 200px;
+  width: 260px;
+  padding: 45px 50px;
+}
+
+/**line top**/
+main .testimonial .line.top .col{
+  float: left;
+}
+/**colonna sinitra**/
+main .testimonial .line.top .col.left.data .counter.people{
+  font-weight: 800;
+  font-size: 25px;
+}
+main .testimonial .line.top .col.left.data p{
+  font-size: 11px;
+}
+main .testimonial .line.top .col.left.data span.counter.countries{
+  font-weight: 600;
+}
+/**colonna destra**/
+main .testimonial .line.top .col.right.bussiness img{
+  float:left;
+  width: 130px;
+  padding: 20px;
+}
+main .testimonial .line.top .col.right.bussiness{
+  padding: 45px 70px;
+  height: 200px;
+  width: 670px;
+}
+/*FINE TESTIMONIAL*/
 /*FINE MAIN*/

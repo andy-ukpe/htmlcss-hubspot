@@ -41,7 +41,7 @@ h3{
 .button{
   color: white;
   background-color: #fe775a;
-  margin: 0 12px;
+  padding: 10px 12px;
   border-radius: 5px;
 }
 .subtitle{
@@ -95,7 +95,7 @@ header .set .col.right .login{
   color:#fe775a;
   border-radius: 5px;
   border: 1px solid #fe775a;
-  padding: 0 12px;
+
 }
 header .set .col.right .glass.icon{
   color:#84d1df;
@@ -137,11 +137,9 @@ h1{
 }
 header .teaser .container div>*{
   padding: 15px;
-  padding-left: 0;
-}
+  }
 header .teaser .button.cta{
-  margin:15px 0;
-  padding: 10px 7px;
+  margin:15px;
 }
 header .teaser div.cta{
   float: left;
@@ -188,7 +186,7 @@ main .bulletpoint .feature{
   font-weight: 600;
 }
 main .services .bulletpoint .button{
-  padding: 12px 18px;
+  ;
 }
 /**LINE SERVICE**/
 
@@ -379,6 +377,7 @@ main .testimonial .line.top .col{
 main .testimonial .line.top .col.left.data .counter.people{
   font-weight: 800;
   font-size: 25px;
+  margin-bottom: 20px;
 }
 main .testimonial .line.top .col.left.data p{
   font-size: 11px;
@@ -396,6 +395,33 @@ main .testimonial .line.top .col.right.bussiness{
   padding: 45px 70px;
   height: 200px;
   width: 670px;
+}
+/**line bottom**/
+main .testimonial .line.bottom .col{
+  float: left;
+  margin:
+}
+/*col left cta*/
+main .testimonial .line.bottom .col.left.cta{
+  height: 300px;
+  width: 400px;
+  padding: 35px 0;
+}
+main .testimonial .line.bottom .col.left.cta>*{
+  margin: 30px 0;
+}
+main .testimonial .line.bottom .col.left.cta h2{
+  font-size: 25px;
+}
+/*col right*/
+main .testimonial .line.bottom .col.right{
+  height: 300px;
+  width: 400px;
+}
+main .testimonial .line.bottom .col.right img{
+  width: 250px;
+  margin-left: 300px;
+  margin-top: 40px;
 }
 /*FINE TESTIMONIAL*/
 /*FINE MAIN*/

@@ -95,7 +95,7 @@ header .set .col.right .login{
   color:#fe775a;
   border-radius: 5px;
   border: 1px solid #fe775a;
-
+  padding: 10px 12px;
 }
 header .set .col.right .glass.icon{
   color:#84d1df;
@@ -428,13 +428,13 @@ main .testimonial .line.bottom .col.right img{
   margin-top: 40px;
 }
 /*FINE TESTIMONIAL*/
+
 /*FINE MAIN*/
+
  /*FOOTER*/
 footer{
   background-color: #33475b;
   color:#cbd6e2;
-  font-weight: 800;
-  font-size: 17px;
   height: 550px;
   width: 100%;
 }
@@ -454,8 +454,12 @@ footer .line .col{
   width: 200px;
   float: left;
 }
+footer .line .col p a{
+  font-weight: 600;
+  font-size: 15px;
+}
 footer .line .col{
-margin-right: 30px;
+  margin-right: 30px;
 }
 footer .line .first.col{
   margin-left: 0;
